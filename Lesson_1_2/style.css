@@ -3,9 +3,14 @@ body {
 }
 
 .paragraph {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
     color: #1f3f68;
+}
+
+.main {
+    font-size: 64px;
+    color: #1F3F68;
 }
 
 .subheading-contact {
