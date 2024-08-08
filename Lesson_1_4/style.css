@@ -1,5 +1,43 @@
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border: 2px solid #720404;
+}
+
+.menu__list {
+    max-width: 1200px;
+    margin-left: 0 auto;
+    padding: 20px;
+}
+
+.top_main {
+    border: 1px solid #000;
+    margin-left: 0;
+    padding-bottom: 0;
+}
+
+.subheading-block {
+    border: 1px solid #000;
+}
+
+.subheading-h4 {
+    border: 1px solid #000;
+}
+
+.paragraph-block {
+    border: 1px solid #000;
+}
+
+.menu {
+    border: 1px solid #000;
+}
+
+.content {
+    border: 1px solid #000;
 }
 
 .paragraph {
@@ -28,6 +66,22 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+}
+
+.subheading-block3 {
+    border: 1px solid #000;
+}
+
+.paragraph-block1 {
+    border: 1px solid #000;
+}
+
+.hr {
+    border: 1px solid #000;
+}
+
+.all_right_reserved {
+    border: 1px solid #000;
 }
 
 .input-field {
