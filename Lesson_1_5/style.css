@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    width: 510px;
+}
+
+p {
+    width: 425px;
+}
+
+.card {
+    width: 359px;
+}
+
+.what-we-do {
+    width: 359px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer .footer-content {
+    width: 340px;
+}
+
+.footer .footer-text {
+    width: 495px;
+}
+
+.footer .footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.send-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    display: flex;
+}
