@@ -3,74 +3,44 @@
     padding: 0;
 }
 
-.container {
+.body {
+    font-family: sans-serif;
+}
+
+.header-wrapper wrapper {
     width: 1140px;
     margin: 0 auto;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    width: 510px;
-}
-
-p {
-    width: 425px;
-}
-
-.card {
-    width: 359px;
-}
-
-.what-we-do {
-    width: 359px;
+.menu {
     display: flex;
     justify-content: space-between;
 }
 
-.footer {
+.header-text-wrapper__h1 {
+    height: 510px;
+}
+
+.header-text-wrapper__description {
+    height: 425px;
+}
+
+.content-wrapper wrapper {
     display: flex;
     justify-content: center;
 }
 
-
-.footer .footer-content {
-    width: 340px;
+.service-info-card__h4 {
+    height: 359px;
 }
 
-.footer .footer-text {
-    width: 495px;
-}
-
-.footer .footer-list {
+.footer-wrapper wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.content {
+.work-with-us {
     display: flex;
-    justify-content: flex-end;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.send-us {
-    display: flex;
-    flex-direction: column;
-}
-
-.submit {
-    display: flex;
+    height: 65px;
+    justify-content: center;
 }
