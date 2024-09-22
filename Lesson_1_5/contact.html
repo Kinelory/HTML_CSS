@@ -11,13 +11,10 @@
 <body>
     <div class="header">
         <div class="header-wrapper wrapper">
-            <div class="menu">
-                <a href="menu" class="menu__main-link">
-                </a>
-
-                <a href="menu" class="menu__contacts-link">
-                </a>
-            </div>
+            <ul class="menu">
+                <li><a href="index.html" class="menu__main-link menu__link">Главная</a></li>
+                <li><a href="contact.html" class="menu__contacts-link menu__link">Контакты</a></li>
+            </ul>
         </div>
     </div>
 
@@ -64,13 +61,40 @@
                         <button class="submit">Отправить</button>
                     </div>
                     <div class="our-location">
-                        <img src="" alt="" class="our-location__map">
+                        <iframe
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3A997ee1d4435b21e8eddd5ff4ff465be5602523cbb75bc7eafabdd7a8e8238d5b&amp;source=constructor"
+                            width="500" height="400" frameborder="0"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="footer">
+        <div class="footer-wrapper wrapper">
+            <div class="work-with-us">
+                <div class="work-with-us-description-wrapper">
+                    <h3 class="work-with-us-description-wrapper__header">Intersted to work</h3>
+                    <p class="work-with-us-description-wrapper__description">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Placeat, animi?</p>
+                </div>
+                <button class="conect-to-us"></button>
+            </div>
+
+            <hr class="footer-line">
+
+            <div class="contacts">
+                <div class="contacts-info-wrapper">
+                    <p class="contacts-info-wrapper__info">Lorem, ipsum dolor.</p>
+                    <p class="contacts-info-wrapper__info">text@gmail.com</p>
+                    <p class="contacts-info-wrapper__info">8999777</p>
+                </div>
+                <p class="copyrights"></p>
+            </div>
+
+
+        </div>
+    </div>
 </body>
 
 </html>

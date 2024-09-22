@@ -7,7 +7,7 @@
     font-family: sans-serif;
 }
 
-.header-wrapper wrapper {
+.wrapper {
     width: 1140px;
     margin: 0 auto;
 }
@@ -15,32 +15,52 @@
 .menu {
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 .header-text-wrapper__h1 {
-    height: 510px;
+    width: 510px;
+    font-size: 64px;
 }
 
 .header-text-wrapper__description {
-    height: 425px;
+    width: 425px;
 }
 
-.content-wrapper wrapper {
+.card-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.service-info-card {
+    width: 359px;
+
 }
 
 .service-info-card__h4 {
     height: 359px;
 }
 
-.footer-wrapper wrapper {
-    display: flex;
-    justify-content: center;
+.work-with-us-description-wrapper__header {
+    width: 340px;
 }
 
-.work-with-us {
+.work-with-us-description-wrapper__description {
+    width: 495px;
+}
+
+.contacts-info-wrapper {
     display: flex;
-    height: 65px;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact-form-info {
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.send-us {
+    display: inline-block;
+    justify-content: space-around;
 }
